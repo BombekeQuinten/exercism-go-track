@@ -10,7 +10,7 @@ func Distance(a, b string) (int, error) {
 	var counter int
 
 	if len(a) == len(b) {
-		return counter, fmt.Errorf("Strands are not of equal length")
+		return counter, fmt.Errorf("strands are not of equal length")
 	}
 
 	for i := range a {
